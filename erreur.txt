@@ -1,0 +1,24 @@
+8:54:05 Asserv       INFO     Commande envoyé : reset all
+18:54:05 Main         INFO     Démarrage du chrono
+18:54:05 Lidar        INFO     Setting PWM value to 512
+18:54:05 Asserv       INFO     Action OK (Z reçu)
+[SCORE] Score actuel : 8
+Ajout de 8 points pour 2 étage(s) monté(s)
+[DEBUG UI] Appel mettre_a_jour_score avec score = 8
+Exception in thread Thread-3 (actions):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/code_principal_2024/Main.py", line 75, in actions
+    while not(getattr(self.dic_class[action['classe']], action['methode'])(*action['arguments'])):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/code_principal_2024/comptage_pts.py", line 58, in pts_gradin
+    self.mettre_a_jour_score()
+  File "/home/pi/code_principal_2024/comptage_pts.py", line 50, in mettre_a_jour_score
+    self.interface.mettre_a_jour_score(self.score, texte_complet)
+  File "/home/pi/code_principal_2024/InterfaceGraphique2024/INTERFACE/Interface.py", line 291, in mettre_a_jour_score
+    self.label_score.config(text=f"Score : {score}")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'StepsSelectionPage' object has no attribute 'label_score'

@@ -1,0 +1,158 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "en_face_pinces_exte",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "open_all_pinces",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "ouvrir_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[205,150]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[0.5236]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[250,300]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[0]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[205,300]
+        },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        }
+        ,{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[0.5]
+        },{
+            "classe":"AX12_Pinces2025",
+            "methode":"close_all_pinces",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_mouvement_avec_jeu",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[-192,300]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[3.6655]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[245,300]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[3.1415]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[170,300]
+        }    
+        ,{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"open_all_pinces",
+            "arguments":[]
+        },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_aller_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[-440,300]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[1.57]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[463,300]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[3.1415]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[430,300]
+        },
+        {
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        }
+        ,
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[-250,300]
+        },{
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[3.45]
+        },{
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[-1400,300]
+        }
+
+    ]
+}

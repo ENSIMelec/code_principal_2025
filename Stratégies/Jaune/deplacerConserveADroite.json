@@ -1,0 +1,85 @@
+{
+    "initialisation": [
+        "Asserv",
+        "AX12_Ascenseur2025",
+        "Temps",
+        "AX12_Pinces2025"
+
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [100,100]
+        }
+        ,
+        {
+            "classe": "AX12_Pinces2025",
+            "methode": "close_pince",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [1]
+        }
+        ,
+        {
+            "classe": "AX12_Ascenseur2025",
+            "methode": "elevate_mouvement",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [1]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "rotate",
+            "arguments": [-1.570796]
+        },
+
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [150,100]
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [1]
+        },
+        {
+            "classe": "AX12_Ascenseur2025",
+            "methode": "lower",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [1]
+        },
+        {
+            "classe": "AX12_Pinces2025",
+            "methode": "open_pince",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [1]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [-200,100]
+        }
+         
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "initialisation": [
+        "Asserv",
+        "AX12_Ascenseur2025",
+        "Temps",
+        "AX12_Pinces2025",
+        "comptage_pts"
+
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_gradin",
+            "arguments": [2] 
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [3]
+        },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_banderole",
+            "arguments": [] 
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause",
+            "arguments": [3]
+        },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_zone_finale",
+            "arguments": [] 
+        }
+ 
+    ]
+}

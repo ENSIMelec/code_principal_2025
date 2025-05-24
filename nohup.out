@@ -1,0 +1,1231 @@
+21:34:14 Main         INFO     Main Code initialized.
+21:34:14 Main         INFO     Initialisation broche GPIO Jack
+21:34:14 Main         INFO     Initialisation du JSON...
+21:34:14 Main         INFO     Initialisation de <module 'Asserv' from '/home/pi/code_principal_2024/Asserv.py'>
+21:34:14 Asserv       INFO     Thread receive_data started
+21:34:14 Asserv       INFO     Commande envoyé : Z
+21:34:14 Asserv       INFO     Asserv initialized.
+21:34:14 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Pinces' from '/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py'>
+21:34:14 AX12         INFO     [Pince Gauche] Port ouvert avec succès ID: 3
+21:34:14 AX12         INFO     [Pince Gauche] Vitesse du port modifiée avec succès à 9600 bps
+21:34:14 AX12         INFO     [Pince Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:34:14 AX12         INFO     [Pince Droite] Port ouvert avec succès ID: 5
+21:34:14 AX12         INFO     [Pince Droite] Vitesse du port modifiée avec succès à 9600 bps
+21:34:14 AX12         INFO     [Pince Droite] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:34:14 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+21:34:15 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+21:34:15 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+21:34:15 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+21:34:15 AX12         INFO     [Pinces] Pinces initialized.
+21:34:15 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Panneau' from '/home/pi/code_principal_2024/AX12_Python/AX12_Panneau.py'>
+21:34:15 AX12         INFO     [Bras Droit] Port ouvert avec succès ID: 4
+21:34:15 AX12         INFO     [Bras Droit] Vitesse du port modifiée avec succès à 9600 bps
+21:34:15 AX12         INFO     [Bras Droit] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:34:15 AX12         INFO     [Bras Gauche] Port ouvert avec succès ID: 8
+21:34:15 AX12         INFO     [Bras Gauche] Vitesse du port modifiée avec succès à 9600 bps
+21:34:15 AX12         INFO     [Bras Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:34:15 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:34:15 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:34:15 AX12         INFO     [Bras Gauche] Vitesse réglée à 1023 avec succès
+21:34:15 AX12         INFO     [Bras Gauche] Position réglée à 495 avec succès
+21:34:15 AX12         INFO     [Panneau] Panneau initialized.
+21:34:15 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Ascenseur' from '/home/pi/code_principal_2024/AX12_Python/AX12_Ascenseur.py'>
+21:34:15 AX12         INFO     [Ascenceur] Port ouvert avec succès ID: 6
+21:34:15 AX12         INFO     [Ascenceur] Vitesse du port modifiée avec succès à 9600 bps
+21:34:15 AX12         INFO     [Ascenceur] Ping réussi. Numéro de modèle du Dynamixel : 780
+21:34:15 AX12         INFO     [Ascenceur] Limite d'angle: 0 à 1023 donc sens horaire (POV LED)
+21:34:15 AX12         INFO     [Ascenceur] Position réglée à 1000 avec succès
+21:34:15 AX12         INFO     [Ascenceur] Ascenseur initialized.
+21:34:15 Main         INFO     JSON initialisé.
+21:34:15 Main         INFO     Initialisation du Lidar
+21:34:15 Lidar        INFO     Lidar initialized.
+21:34:15 Main         INFO     Don de asserv à Lidar
+21:34:15 Main         INFO     Waiting for jack removal...
+21:34:15 Main         INFO     Jack retiré
+21:34:15 Main         INFO     Démarrage du robot à 1715369655.5585966 secondes
+21:34:16 Main         INFO     Démarrage du thread d'actions
+21:34:16 Main         INFO     Démarrage du chrono
+21:34:16 Asserv       INFO     Commande envoyé : reset all
+21:34:16 Asserv       INFO     Action OK (Z reçu)
+21:34:18 Asserv       INFO     Commande envoyé : moveof 75 300
+21:34:18 Asserv       INFO     Action OK (Z reçu)
+21:34:18 Asserv       INFO     Commande envoyé : Z
+21:34:18 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:34:18 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:34:18 AX12         INFO     [Bras Droit] Current pos :748
+21:34:19 AX12         INFO     [Bras Droit] Current pos :658
+21:34:19 Asserv       INFO     Commande envoyé : moveof 20 100
+21:34:19 Asserv       INFO     Action OK (Z reçu)
+21:34:19 Asserv       INFO     Commande envoyé : Z
+21:34:19 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:34:19 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:34:19 Asserv       INFO     Commande envoyé : moveof 230 300
+21:34:20 Asserv       INFO     Action OK (Z reçu)
+21:34:20 Asserv       INFO     Commande envoyé : Z
+21:34:20 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:34:20 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:34:20 AX12         INFO     [Bras Droit] Current pos :748
+21:34:21 AX12         INFO     [Bras Droit] Current pos :657
+21:34:21 Asserv       INFO     Commande envoyé : moveof 20 100
+21:34:21 Asserv       INFO     Action OK (Z reçu)
+21:34:21 Asserv       INFO     Commande envoyé : Z
+21:34:21 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:34:21 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:34:21 Asserv       INFO     Commande envoyé : moveof 220 300
+21:34:22 Asserv       INFO     Action OK (Z reçu)
+21:34:22 Asserv       INFO     Commande envoyé : Z
+21:34:22 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:34:22 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:34:22 AX12         INFO     [Bras Droit] Current pos :748
+21:34:23 AX12         INFO     [Bras Droit] Current pos :655
+21:34:23 Asserv       INFO     Commande envoyé : moveof 30 100
+21:34:23 Asserv       INFO     Action OK (Z reçu)
+21:34:23 Asserv       INFO     Commande envoyé : Z
+21:34:23 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:34:23 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:34:24 Main         INFO     Fin du match ou chrono
+21:34:25 Main         INFO     Arrêt des moteurs
+21:34:25 Asserv       INFO     Commande envoyé : stopmove
+21:34:25 Main         INFO     Arrêt du scanner Lidar
+21:34:25 Lidar        INFO     Stopping the lidar scan.
+21:37:29 Main         INFO     Main Code initialized.
+21:37:29 Main         INFO     Initialisation broche GPIO Jack
+21:37:29 Main         INFO     Initialisation du JSON...
+21:37:29 Main         INFO     Initialisation de <module 'Asserv' from '/home/pi/code_principal_2024/Asserv.py'>
+21:37:29 Asserv       INFO     Thread receive_data started
+21:37:29 Asserv       INFO     Commande envoyé : Z
+21:37:29 Asserv       INFO     Asserv initialized.
+21:37:29 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Pinces' from '/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py'>
+21:37:29 AX12         INFO     [Pince Gauche] Port ouvert avec succès ID: 3
+21:37:29 AX12         INFO     [Pince Gauche] Vitesse du port modifiée avec succès à 9600 bps
+21:37:29 Asserv       WARNING  data reception : could not convert string to float: '-4I-0.59619'
+21:37:29 AX12         INFO     [Pince Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:37:29 AX12         INFO     [Pince Droite] Port ouvert avec succès ID: 5
+21:37:29 AX12         INFO     [Pince Droite] Vitesse du port modifiée avec succès à 9600 bps
+21:37:29 AX12         INFO     [Pince Droite] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:37:29 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+21:37:29 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+21:37:30 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+21:37:30 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+21:37:30 AX12         INFO     [Pinces] Pinces initialized.
+21:37:30 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Panneau' from '/home/pi/code_principal_2024/AX12_Python/AX12_Panneau.py'>
+21:37:30 AX12         INFO     [Bras Droit] Port ouvert avec succès ID: 4
+21:37:30 AX12         INFO     [Bras Droit] Vitesse du port modifiée avec succès à 9600 bps
+21:37:30 AX12         INFO     [Bras Droit] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:37:30 AX12         INFO     [Bras Gauche] Port ouvert avec succès ID: 8
+21:37:30 AX12         INFO     [Bras Gauche] Vitesse du port modifiée avec succès à 9600 bps
+21:37:30 AX12         INFO     [Bras Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+21:37:30 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:30 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:30 AX12         INFO     [Bras Gauche] Vitesse réglée à 1023 avec succès
+21:37:30 AX12         INFO     [Bras Gauche] Position réglée à 495 avec succès
+21:37:30 AX12         INFO     [Panneau] Panneau initialized.
+21:37:30 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Ascenseur' from '/home/pi/code_principal_2024/AX12_Python/AX12_Ascenseur.py'>
+21:37:30 AX12         INFO     [Ascenceur] Port ouvert avec succès ID: 6
+21:37:30 AX12         INFO     [Ascenceur] Vitesse du port modifiée avec succès à 9600 bps
+21:37:30 AX12         INFO     [Ascenceur] Ping réussi. Numéro de modèle du Dynamixel : 780
+21:37:30 AX12         INFO     [Ascenceur] Limite d'angle: 0 à 1023 donc sens horaire (POV LED)
+21:37:30 AX12         INFO     [Ascenceur] Position réglée à 1000 avec succès
+21:37:30 AX12         INFO     [Ascenceur] Ascenseur initialized.
+21:37:30 Main         INFO     JSON initialisé.
+21:37:30 Main         INFO     Initialisation du Lidar
+21:37:30 Lidar        INFO     Lidar initialized.
+21:37:30 Main         INFO     Don de asserv à Lidar
+21:37:30 Main         INFO     Waiting for jack removal...
+21:37:30 Main         INFO     Jack retiré
+21:37:30 Main         INFO     Démarrage du robot à 1715369850.459119 secondes
+21:37:30 Main         INFO     Démarrage du thread d'actions
+21:37:30 Main         INFO     Démarrage du chrono
+21:37:30 Asserv       INFO     Commande envoyé : reset all
+21:37:31 Asserv       INFO     Action OK (Z reçu)
+21:37:32 Asserv       INFO     Commande envoyé : moveof 75 300
+21:37:33 Asserv       INFO     Action OK (Z reçu)
+21:37:33 Asserv       INFO     Commande envoyé : Z
+21:37:33 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:37:33 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:37:33 AX12         INFO     [Bras Droit] Current pos :748
+21:37:34 AX12         INFO     [Bras Droit] Current pos :659
+21:37:34 Asserv       INFO     Commande envoyé : moveof 20 100
+21:37:34 Asserv       INFO     Action OK (Z reçu)
+21:37:34 Asserv       INFO     Commande envoyé : Z
+21:37:34 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:34 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:34 Asserv       INFO     Commande envoyé : moveof 230 300
+21:37:35 Asserv       INFO     Action OK (Z reçu)
+21:37:35 Asserv       INFO     Commande envoyé : Z
+21:37:35 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:37:35 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:37:35 AX12         INFO     [Bras Droit] Current pos :748
+21:37:36 AX12         INFO     [Bras Droit] Current pos :655
+21:37:36 Asserv       INFO     Commande envoyé : moveof 20 100
+21:37:36 Asserv       INFO     Action OK (Z reçu)
+21:37:36 Asserv       INFO     Commande envoyé : Z
+21:37:36 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:36 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:36 Asserv       INFO     Commande envoyé : moveof 220 300
+21:37:37 Asserv       INFO     Action OK (Z reçu)
+21:37:37 Asserv       INFO     Commande envoyé : Z
+21:37:37 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:37:37 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:37:37 AX12         INFO     [Bras Droit] Current pos :748
+21:37:38 AX12         INFO     [Bras Droit] Current pos :655
+21:37:38 Asserv       INFO     Commande envoyé : moveof 30 100
+21:37:38 Asserv       INFO     Action OK (Z reçu)
+21:37:38 Asserv       INFO     Commande envoyé : Z
+21:37:38 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:38 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:38 Asserv       INFO     Commande envoyé : goto 1141.41 -36.87 500
+21:37:40 Asserv       INFO     Action OK (Z reçu)
+21:37:40 Asserv       INFO     Commande envoyé : Z
+21:37:40 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:37:40 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:37:41 AX12         INFO     [Bras Droit] Current pos :748
+21:37:41 AX12         INFO     [Bras Droit] Current pos :658
+21:37:41 Asserv       INFO     Commande envoyé : moveof 20 100
+21:37:41 Asserv       INFO     Action OK (Z reçu)
+21:37:41 Asserv       INFO     Commande envoyé : Z
+21:37:41 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:41 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:41 Asserv       INFO     Commande envoyé : moveof 230 300
+21:37:43 Asserv       INFO     Action OK (Z reçu)
+21:37:43 Asserv       INFO     Commande envoyé : Z
+21:37:43 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+21:37:43 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+21:37:43 AX12         INFO     [Bras Droit] Current pos :748
+21:37:43 AX12         INFO     [Bras Droit] Current pos :658
+21:37:43 Asserv       INFO     Commande envoyé : moveof 20 100
+21:37:43 Asserv       INFO     Action OK (Z reçu)
+21:37:43 Asserv       INFO     Commande envoyé : Z
+21:37:43 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+21:37:43 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+21:37:43 Asserv       INFO     Commande envoyé : moveof 220 300
+21:37:45 Asserv       INFO     Action OK (Z reçu)
+21:37:45 Asserv       INFO     Commande envoyé : Z
+21:37:45 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:45 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:45 AX12         ERROR    [Bras Droit] (read_present_position) [TxRxResult] Incorrect status packet!
+21:37:45 Asserv       INFO     Commande envoyé : moveof 30 100
+21:37:45 Asserv       INFO     Action OK (Z reçu)
+21:37:45 Asserv       INFO     Commande envoyé : Z
+21:37:45 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:45 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:46 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:47 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:48 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:49 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:50 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:51 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:52 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:53 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:54 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:55 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:56 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:57 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:58 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:37:59 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:00 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:01 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:02 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:03 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:04 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:06 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:07 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:08 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:09 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:10 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:11 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:12 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:13 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:14 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:15 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+21:38:15 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+21:38:15 Main         WARNING  Vous avez appuyé sur Ctrl+C !
+21:38:15 Main         INFO     Arrêt des moteurs
+21:38:15 Asserv       INFO     Commande envoyé : stopmove
+21:38:15 Main         INFO     Arrêt du scanner Lidar
+21:38:15 Lidar        INFO     Stopping the lidar scan.
+02:02:05 Main         INFO     Main Code initialized.
+02:02:05 Main         INFO     Initialisation broche GPIO Jack
+02:02:05 Main         INFO     Initialisation du JSON...
+02:02:05 Main         INFO     Initialisation de <module 'Asserv' from '/home/pi/code_principal_2024/Asserv.py'>
+02:02:05 Asserv       INFO     Thread receive_data started
+02:02:05 Asserv       INFO     Commande envoyé : Z
+02:02:05 Asserv       INFO     Asserv initialized.
+02:02:05 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Pinces' from '/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py'>
+02:02:05 AX12         INFO     [Pince Gauche] Port ouvert avec succès ID: 3
+02:02:05 AX12         INFO     [Pince Gauche] Vitesse du port modifiée avec succès à 9600 bps
+02:02:05 AX12         INFO     [Pince Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+02:02:05 AX12         INFO     [Pince Droite] Port ouvert avec succès ID: 5
+02:02:05 AX12         INFO     [Pince Droite] Vitesse du port modifiée avec succès à 9600 bps
+02:02:05 AX12         INFO     [Pince Droite] Ping réussi. Numéro de modèle du Dynamixel : 12
+02:02:05 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:02:05 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:02:05 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:02:05 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:02:05 AX12         INFO     [Pinces] Pinces initialized.
+02:02:05 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Panneau' from '/home/pi/code_principal_2024/AX12_Python/AX12_Panneau.py'>
+02:02:05 AX12         INFO     [Bras Droit] Port ouvert avec succès ID: 4
+02:02:05 AX12         INFO     [Bras Droit] Vitesse du port modifiée avec succès à 9600 bps
+02:02:05 AX12         INFO     [Bras Droit] Ping réussi. Numéro de modèle du Dynamixel : 12
+02:02:05 AX12         INFO     [Bras Gauche] Port ouvert avec succès ID: 8
+02:02:05 AX12         INFO     [Bras Gauche] Vitesse du port modifiée avec succès à 9600 bps
+02:02:05 AX12         INFO     [Bras Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+02:02:06 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:06 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:06 AX12         INFO     [Bras Gauche] Vitesse réglée à 1023 avec succès
+02:02:06 AX12         INFO     [Bras Gauche] Position réglée à 495 avec succès
+02:02:06 AX12         INFO     [Panneau] Panneau initialized.
+02:02:06 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Ascenseur' from '/home/pi/code_principal_2024/AX12_Python/AX12_Ascenseur.py'>
+02:02:06 AX12         INFO     [Ascenceur] Port ouvert avec succès ID: 6
+02:02:06 AX12         INFO     [Ascenceur] Vitesse du port modifiée avec succès à 9600 bps
+02:02:06 AX12         INFO     [Ascenceur] Ping réussi. Numéro de modèle du Dynamixel : 780
+02:02:06 AX12         INFO     [Ascenceur] Limite d'angle: 0 à 1023 donc sens horaire (POV LED)
+02:02:06 AX12         INFO     [Ascenceur] Position réglée à 1000 avec succès
+02:02:06 AX12         INFO     [Ascenceur] Ascenseur initialized.
+02:02:06 Main         INFO     JSON initialisé.
+02:02:06 Main         INFO     Initialisation du Lidar
+02:02:06 Lidar        INFO     Lidar initialized.
+02:02:06 Main         INFO     Don de asserv à Lidar
+02:02:06 Main         INFO     Waiting for jack removal...
+02:02:46 Main         INFO     Jack retiré
+02:02:46 Main         INFO     Démarrage du robot à 1715385766.329221 secondes
+02:02:46 Main         INFO     Démarrage du thread d'actions
+02:02:46 Main         INFO     Démarrage du chrono
+02:02:46 Asserv       INFO     Commande envoyé : reset all
+02:02:47 Asserv       INFO     Action OK (Z reçu)
+02:02:47 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:02:47 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:02:48 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:02:48 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:02:48 Asserv       INFO     Commande envoyé : moveof 75 300
+02:02:48 Asserv       INFO     Action OK (Z reçu)
+02:02:48 Asserv       INFO     Commande envoyé : Z
+02:02:48 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:02:48 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:02:48 AX12         INFO     [Bras Droit] Current pos :748
+02:02:49 AX12         INFO     [Bras Droit] Current pos :658
+02:02:49 Asserv       INFO     Commande envoyé : moveof 20 100
+02:02:49 Asserv       INFO     Action OK (Z reçu)
+02:02:49 Asserv       INFO     Commande envoyé : Z
+02:02:49 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:49 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:49 Asserv       INFO     Commande envoyé : moveof 230 300
+02:02:50 Asserv       INFO     Action OK (Z reçu)
+02:02:50 Asserv       INFO     Commande envoyé : Z
+02:02:50 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:02:50 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:02:50 AX12         INFO     [Bras Droit] Current pos :748
+02:02:51 AX12         INFO     [Bras Droit] Current pos :656
+02:02:51 Asserv       INFO     Commande envoyé : moveof 20 100
+02:02:51 Asserv       INFO     Action OK (Z reçu)
+02:02:51 Asserv       INFO     Commande envoyé : Z
+02:02:51 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:51 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:51 Asserv       INFO     Commande envoyé : moveof 220 300
+02:02:52 Asserv       INFO     Action OK (Z reçu)
+02:02:52 Asserv       INFO     Commande envoyé : Z
+02:02:52 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:02:52 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:02:52 AX12         INFO     [Bras Droit] Current pos :748
+02:02:53 AX12         INFO     [Bras Droit] Current pos :656
+02:02:53 Asserv       INFO     Commande envoyé : moveof 30 100
+02:02:53 Asserv       INFO     Action OK (Z reçu)
+02:02:53 Asserv       INFO     Commande envoyé : Z
+02:02:53 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:53 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:53 Asserv       INFO     Commande envoyé : goto 1139 -40 500
+02:02:56 Asserv       INFO     Action OK (Z reçu)
+02:02:56 Asserv       INFO     Commande envoyé : Z
+02:02:56 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:02:56 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:02:56 AX12         INFO     [Bras Droit] Current pos :748
+02:02:56 AX12         INFO     [Bras Droit] Current pos :656
+02:02:56 Asserv       INFO     Commande envoyé : moveof 20 100
+02:02:56 Asserv       INFO     Action OK (Z reçu)
+02:02:56 Asserv       INFO     Commande envoyé : Z
+02:02:56 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:56 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:56 Asserv       INFO     Commande envoyé : moveof 222 300
+02:02:58 Asserv       INFO     Action OK (Z reçu)
+02:02:58 Asserv       INFO     Commande envoyé : Z
+02:02:58 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:02:58 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:02:58 AX12         INFO     [Bras Droit] Current pos :748
+02:02:58 AX12         INFO     [Bras Droit] Current pos :657
+02:02:58 Asserv       INFO     Commande envoyé : moveof 20 100
+02:02:58 Asserv       INFO     Action OK (Z reçu)
+02:02:58 Asserv       INFO     Commande envoyé : Z
+02:02:59 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:02:59 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:02:59 Asserv       INFO     Commande envoyé : moveof 225 300
+02:03:00 Asserv       INFO     Action OK (Z reçu)
+02:03:00 Asserv       INFO     Commande envoyé : Z
+02:03:00 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+02:03:00 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+02:03:00 AX12         INFO     [Bras Droit] Current pos :748
+02:03:00 AX12         INFO     [Bras Droit] Current pos :656
+02:03:00 Asserv       INFO     Commande envoyé : moveof 30 100
+02:03:01 Asserv       INFO     Action OK (Z reçu)
+02:03:01 Asserv       INFO     Commande envoyé : Z
+02:03:01 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+02:03:01 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+02:03:01 AX12         INFO     [Pince Gauche] Vitesse réglée à 64 avec succès
+02:03:01 AX12         INFO     [Pince Droite] Vitesse réglée à 64 avec succès
+02:03:01 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:03:01 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:03:01 Asserv       INFO     Commande envoyé : moveof -250 500
+02:03:02 Asserv       INFO     Action OK (Z reçu)
+02:03:02 Asserv       INFO     Commande envoyé : Z
+02:03:02 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:03:02 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:03:02 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:02 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:03 AX12         INFO     [Pince Gauche] Vitesse actuelle: 660
+02:03:03 AX12         INFO     [Pince Droite] Vitesse actuelle: 1636
+02:03:03 AX12         INFO     [Pince Gauche] Vitesse actuelle: 1052
+02:03:03 AX12         INFO     [Pince Droite] Vitesse actuelle: 48
+02:03:03 AX12         INFO     [Pince Gauche] Vitesse actuelle: 0
+02:03:03 AX12         INFO     [Pince Gauche] Current pos :714
+02:03:03 AX12         INFO     [Pince Gauche] Position réglée à 724 avec succès
+02:03:03 AX12         INFO     [Pince Droite] Current pos :2
+02:03:03 AX12         INFO     [Pince Droite] Position réglée à 5 avec succès
+02:03:03 Asserv       INFO     Commande envoyé : rotate 1.570796
+02:03:05 Asserv       INFO     Action OK (Z reçu)
+02:03:05 Asserv       INFO     Commande envoyé : Z
+02:03:05 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:03:05 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:03:05 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:03:05 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:03:06 AX12         INFO     [Pince Gauche] Current pos :413
+02:03:06 AX12         INFO     [Pince Droite] Current pos :312
+02:03:06 AX12         INFO     [Pince Gauche] Vitesse réglée à 32 avec succès
+02:03:06 AX12         INFO     [Pince Droite] Vitesse réglée à 32 avec succès
+02:03:06 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:06 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:06 Asserv       INFO     Commande envoyé : goto 1421.06 235.9 75
+02:03:07 Asserv       INFO     Action OK (Z reçu)
+02:03:07 Asserv       INFO     Commande envoyé : Z
+02:03:07 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+02:03:07 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+02:03:08 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:08 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:08 AX12         INFO     [Pince Gauche] Vitesse actuelle: 128
+02:03:08 AX12         INFO     [Pince Droite] Vitesse actuelle: 1144
+02:03:08 AX12         INFO     [Pince Gauche] Vitesse actuelle: 72
+02:03:08 AX12         INFO     [Pince Droite] Vitesse actuelle: 1068
+02:03:08 AX12         INFO     [Pince Gauche] Vitesse actuelle: 4
+02:03:09 AX12         INFO     [Pince Droite] Vitesse actuelle: 0
+02:03:09 AX12         INFO     [Pince Gauche] Current pos :642
+02:03:09 AX12         INFO     [Pince Gauche] Position réglée à 652 avec succès
+02:03:09 AX12         INFO     [Pince Droite] Current pos :73
+02:03:09 AX12         INFO     [Pince Droite] Position réglée à 63 avec succès
+02:03:09 Asserv       INFO     Commande envoyé : goto 164 100 500
+02:03:14 Asserv       INFO     Action OK (Z reçu)
+02:03:14 Asserv       INFO     Commande envoyé : Z
+02:03:14 AX12         INFO     [Pince Gauche] Current pos :640
+02:03:14 AX12         INFO     [Pince Droite] Current pos :73
+02:03:14 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:03:14 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:03:14 AX12         INFO     [Pince Gauche] Position réglée à 615 avec succès
+02:03:14 AX12         INFO     [Pince Droite] Position réglée à 98 avec succès
+02:03:15 AX12         INFO     [Pince Gauche] Current pos :611
+02:03:15 AX12         INFO     [Pince Droite] Current pos :100
+02:03:15 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:03:15 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:03:15 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:03:15 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:03:15 Asserv       INFO     Commande envoyé : moveof -250 500
+02:03:16 Asserv       INFO     Action OK (Z reçu)
+02:03:16 Asserv       INFO     Commande envoyé : Z
+02:03:16 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+02:03:16 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+02:03:17 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:17 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:17 Asserv       INFO     Commande envoyé : goto 164 861 500
+02:03:21 Asserv       INFO     Action OK (Z reçu)
+02:03:21 Asserv       INFO     Commande envoyé : Z
+02:03:21 Asserv       INFO     Commande envoyé : goto 962 861 500
+02:03:25 Asserv       INFO     Action OK (Z reçu)
+02:03:25 Asserv       INFO     Commande envoyé : Z
+02:03:25 Asserv       INFO     Commande envoyé : rotate -1.570796
+02:03:26 Asserv       INFO     Action OK (Z reçu)
+02:03:26 Asserv       INFO     Commande envoyé : Z
+02:03:26 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+02:03:26 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+02:03:26 AX12         INFO     [Pince Gauche] Position réglée à 340 avec succès
+02:03:26 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+02:03:27 AX12         INFO     [Pince Gauche] Current pos :410
+02:03:27 AX12         INFO     [Pince Droite] Current pos :306
+02:03:27 AX12         INFO     [Pince Gauche] Vitesse réglée à 32 avec succès
+02:03:27 AX12         INFO     [Pince Droite] Vitesse réglée à 32 avec succès
+02:03:27 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:27 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:27 Asserv       INFO     Commande envoyé : goto 903 485 75
+02:03:29 Asserv       INFO     Action OK (Z reçu)
+02:03:29 Asserv       INFO     Commande envoyé : Z
+02:03:29 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+02:03:29 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+02:03:29 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+02:03:29 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+02:03:29 AX12         INFO     [Pince Gauche] Vitesse actuelle: 4
+02:03:29 AX12         INFO     [Pince Droite] Vitesse actuelle: 1132
+02:03:30 AX12         INFO     [Pince Gauche] Vitesse actuelle: 0
+02:03:30 AX12         INFO     [Pince Gauche] Current pos :536
+02:03:30 AX12         INFO     [Pince Gauche] Position réglée à 546 avec succès
+02:03:30 AX12         INFO     [Pince Droite] Current pos :74
+02:03:30 AX12         INFO     [Pince Droite] Position réglée à 64 avec succès
+02:03:30 Asserv       INFO     Commande envoyé : goto 260 1663 500
+02:03:35 Asserv       INFO     Action OK (Z reçu)
+02:03:35 Asserv       INFO     Commande envoyé : Z
+02:03:35 AX12         INFO     [Ascenceur] Position réglée à 10 avec succès
+02:03:35 Asserv       INFO     Commande envoyé : rotate 3.14159265
+02:03:37 Asserv       INFO     Action OK (Z reçu)
+02:03:37 Asserv       INFO     Commande envoyé : Z
+02:03:37 Asserv       INFO     Commande envoyé : recalage avant
+02:03:38 Asserv       INFO     Action OK (Z reçu)
+02:03:38 Asserv       INFO     Commande envoyé : set angle 3.14159265
+02:03:38 Asserv       INFO     Commande envoyé : moveof -75 500
+02:03:38 Asserv       INFO     Action OK (Z reçu)
+02:03:38 Asserv       INFO     Commande envoyé : Z
+02:03:38 Asserv       INFO     Commande envoyé : rotate 1.570796
+02:03:40 Asserv       INFO     Action OK (Z reçu)
+02:03:40 Asserv       INFO     Commande envoyé : Z
+02:03:40 Asserv       INFO     Commande envoyé : moveof -500 500
+02:03:41 Asserv       INFO     Action OK (Z reçu)
+02:03:41 Asserv       INFO     Commande envoyé : Z
+02:03:41 Asserv       INFO     Commande envoyé : moveof 150 500
+02:03:42 Asserv       INFO     Action OK (Z reçu)
+02:03:42 Asserv       INFO     Commande envoyé : Z
+02:03:42 Asserv       INFO     Commande envoyé : rotate 3.14159265
+02:03:44 Asserv       INFO     Action OK (Z reçu)
+02:03:44 Asserv       INFO     Commande envoyé : Z
+02:03:44 Asserv       INFO     Commande envoyé : recalage avant
+02:03:44 Asserv       INFO     Action OK (Z reçu)
+02:03:44 Asserv       INFO     Commande envoyé : set angle 3.14159265
+02:03:44 AX12         ERROR    [Ascenceur] (move) [TxRxResult] Incorrect status packet!
+02:03:44 AX12         ERROR    [Ascenceur] (read_present_position) [TxRxResult] Incorrect status packet!
+02:03:44 AX12         ERROR    [Pince Gauche] (read_present_position) [TxRxResult] Incorrect status packet!
+Exception in thread Thread-3 (actions):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/code_principal_2024/Main.py", line 46, in actions
+    while not(getattr(self.dic_class[action['classe']], action['methode'])(*action['arguments'])):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py", line 73, in open_pinceV2
+    self.move_while_pince(self.ax12_motor_gauche.read_present_position()-25,self.ax12_motor_droit.read_present_position()+25,16)
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+02:03:44 Main         INFO     Fin du match ou chrono
+02:03:45 Main         INFO     Arrêt des moteurs
+02:03:45 Asserv       INFO     Commande envoyé : stopmove
+02:03:45 Main         INFO     Arrêt du scanner Lidar
+02:03:45 Lidar        INFO     Stopping the lidar scan.
+04:48:35 Main         INFO     Main Code initialized.
+04:48:35 Main         INFO     Initialisation broche GPIO Jack
+04:48:35 Main         INFO     Initialisation du JSON...
+04:48:35 Main         INFO     Initialisation de <module 'Asserv' from '/home/pi/code_principal_2024/Asserv.py'>
+04:48:35 Asserv       INFO     Thread receive_data started
+04:48:35 Asserv       INFO     Commande envoyé : Z
+04:48:35 Asserv       INFO     Asserv initialized.
+04:48:35 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Pinces' from '/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py'>
+04:48:35 AX12         INFO     [Pince Gauche] Port ouvert avec succès ID: 3
+04:48:35 AX12         INFO     [Pince Gauche] Vitesse du port modifiée avec succès à 9600 bps
+04:48:35 AX12         INFO     [Pince Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+04:48:35 AX12         INFO     [Pince Droite] Port ouvert avec succès ID: 5
+04:48:35 AX12         INFO     [Pince Droite] Vitesse du port modifiée avec succès à 9600 bps
+04:48:35 AX12         INFO     [Pince Droite] Ping réussi. Numéro de modèle du Dynamixel : 12
+04:48:35 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:48:35 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:48:36 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:48:36 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:48:36 AX12         INFO     [Pinces] Pinces initialized.
+04:48:36 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Panneau' from '/home/pi/code_principal_2024/AX12_Python/AX12_Panneau.py'>
+04:48:36 AX12         INFO     [Bras Droit] Port ouvert avec succès ID: 4
+04:48:36 AX12         INFO     [Bras Droit] Vitesse du port modifiée avec succès à 9600 bps
+04:48:36 AX12         INFO     [Bras Droit] Ping réussi. Numéro de modèle du Dynamixel : 12
+04:48:36 AX12         INFO     [Bras Gauche] Port ouvert avec succès ID: 8
+04:48:36 AX12         INFO     [Bras Gauche] Vitesse du port modifiée avec succès à 9600 bps
+04:48:36 AX12         INFO     [Bras Gauche] Ping réussi. Numéro de modèle du Dynamixel : 12
+04:48:36 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:48:36 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:48:36 AX12         INFO     [Bras Gauche] Vitesse réglée à 1023 avec succès
+04:48:36 AX12         INFO     [Bras Gauche] Position réglée à 495 avec succès
+04:48:36 AX12         INFO     [Panneau] Panneau initialized.
+04:48:36 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Ascenseur' from '/home/pi/code_principal_2024/AX12_Python/AX12_Ascenseur.py'>
+04:48:36 AX12         INFO     [Ascenceur] Port ouvert avec succès ID: 6
+04:48:36 AX12         INFO     [Ascenceur] Vitesse du port modifiée avec succès à 9600 bps
+04:48:36 AX12         INFO     [Ascenceur] Ping réussi. Numéro de modèle du Dynamixel : 780
+04:48:36 AX12         INFO     [Ascenceur] Limite d'angle: 0 à 1023 donc sens horaire (POV LED)
+04:48:36 AX12         INFO     [Ascenceur] Position réglée à 1000 avec succès
+04:48:36 AX12         INFO     [Ascenceur] Ascenseur initialized.
+04:48:36 Main         INFO     JSON initialisé.
+04:48:36 Main         INFO     Initialisation du Lidar
+04:48:36 Lidar        INFO     Lidar initialized.
+04:48:36 Main         INFO     Don de asserv à Lidar
+04:48:36 Main         INFO     Waiting for jack removal...
+04:52:24 Main         INFO     Jack retiré
+04:52:24 Main         INFO     Démarrage du robot à 1715395944.2337718 secondes
+04:52:24 Main         INFO     Démarrage du thread d'actions
+04:52:24 Main         INFO     Démarrage du chrono
+04:52:24 Asserv       INFO     Commande envoyé : reset all
+04:52:25 Asserv       INFO     Action OK (Z reçu)
+04:52:25 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:52:25 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:52:26 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:52:26 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:52:26 Asserv       INFO     Commande envoyé : moveof 75 300
+04:52:26 Asserv       INFO     Action OK (Z reçu)
+04:52:26 Asserv       INFO     Commande envoyé : Z
+04:52:26 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:26 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:26 AX12         INFO     [Bras Droit] Current pos :748
+04:52:27 AX12         INFO     [Bras Droit] Current pos :659
+04:52:27 Asserv       INFO     Commande envoyé : moveof 20 100
+04:52:27 Asserv       INFO     Action OK (Z reçu)
+04:52:27 Asserv       INFO     Commande envoyé : Z
+04:52:27 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:27 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:27 Asserv       INFO     Commande envoyé : moveof 230 300
+04:52:28 Asserv       INFO     Action OK (Z reçu)
+04:52:28 Asserv       INFO     Commande envoyé : Z
+04:52:28 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:28 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:28 AX12         INFO     [Bras Droit] Current pos :748
+04:52:29 AX12         INFO     [Bras Droit] Current pos :656
+04:52:29 Asserv       INFO     Commande envoyé : moveof 20 100
+04:52:29 Asserv       INFO     Action OK (Z reçu)
+04:52:29 Asserv       INFO     Commande envoyé : Z
+04:52:29 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:29 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:29 Asserv       INFO     Commande envoyé : moveof 220 300
+04:52:30 Asserv       INFO     Action OK (Z reçu)
+04:52:30 Asserv       INFO     Commande envoyé : Z
+04:52:30 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:30 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:30 AX12         INFO     [Bras Droit] Current pos :748
+04:52:31 AX12         INFO     [Bras Droit] Current pos :656
+04:52:31 Asserv       INFO     Commande envoyé : moveof 30 100
+04:52:31 Asserv       INFO     Action OK (Z reçu)
+04:52:31 Asserv       INFO     Commande envoyé : Z
+04:52:31 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:31 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:31 Asserv       INFO     Commande envoyé : goto 1139 -40 500
+04:52:33 Asserv       INFO     Action OK (Z reçu)
+04:52:33 Asserv       INFO     Commande envoyé : Z
+04:52:33 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:33 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:33 AX12         INFO     [Bras Droit] Current pos :748
+04:52:34 AX12         INFO     [Bras Droit] Current pos :658
+04:52:34 Asserv       INFO     Commande envoyé : moveof 20 100
+04:52:34 Asserv       INFO     Action OK (Z reçu)
+04:52:34 Asserv       INFO     Commande envoyé : Z
+04:52:34 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:34 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:34 Asserv       INFO     Commande envoyé : moveof 222 300
+04:52:35 Asserv       INFO     Action OK (Z reçu)
+04:52:35 Asserv       INFO     Commande envoyé : Z
+04:52:35 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:35 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:35 AX12         INFO     [Bras Droit] Current pos :748
+04:52:36 AX12         INFO     [Bras Droit] Current pos :656
+04:52:36 Asserv       INFO     Commande envoyé : moveof 20 100
+04:52:36 Asserv       INFO     Action OK (Z reçu)
+04:52:36 Asserv       INFO     Commande envoyé : Z
+04:52:36 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:36 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:36 Asserv       INFO     Commande envoyé : moveof 225 300
+04:52:37 Asserv       INFO     Action OK (Z reçu)
+04:52:37 Asserv       INFO     Commande envoyé : Z
+04:52:37 AX12         INFO     [Bras Droit] Vitesse réglée à 128 avec succès
+04:52:37 AX12         INFO     [Bras Droit] Position réglée à 660 avec succès
+04:52:37 AX12         INFO     [Bras Droit] Current pos :748
+04:52:38 AX12         INFO     [Bras Droit] Current pos :657
+04:52:38 Asserv       INFO     Commande envoyé : moveof 30 100
+04:52:38 Asserv       INFO     Action OK (Z reçu)
+04:52:38 Asserv       INFO     Commande envoyé : Z
+04:52:38 AX12         INFO     [Bras Droit] Vitesse réglée à 1023 avec succès
+04:52:38 AX12         INFO     [Bras Droit] Position réglée à 750 avec succès
+04:52:38 AX12         INFO     [Pince Gauche] Vitesse réglée à 64 avec succès
+04:52:38 AX12         INFO     [Pince Droite] Vitesse réglée à 64 avec succès
+04:52:39 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:52:39 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:52:39 Asserv       INFO     Commande envoyé : moveof -250 500
+04:52:40 Asserv       INFO     Action OK (Z reçu)
+04:52:40 Asserv       INFO     Commande envoyé : Z
+04:52:40 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:52:40 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:52:40 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:52:40 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:52:40 AX12         INFO     [Pince Gauche] Vitesse actuelle: 612
+04:52:40 AX12         INFO     [Pince Droite] Vitesse actuelle: 1644
+04:52:41 AX12         INFO     [Pince Gauche] Vitesse actuelle: 1056
+04:52:41 AX12         INFO     [Pince Droite] Vitesse actuelle: 24
+04:52:41 AX12         INFO     [Pince Gauche] Vitesse actuelle: 0
+04:52:41 AX12         INFO     [Pince Gauche] Current pos :713
+04:52:41 AX12         INFO     [Pince Gauche] Position réglée à 723 avec succès
+04:52:41 AX12         INFO     [Pince Droite] Current pos :2
+04:52:41 AX12         INFO     [Pince Droite] Position réglée à 5 avec succès
+04:52:41 Asserv       INFO     Commande envoyé : rotate 1.570796
+04:52:42 Asserv       INFO     Action OK (Z reçu)
+04:52:42 Asserv       INFO     Commande envoyé : Z
+04:52:42 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:52:42 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:52:43 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:52:43 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:52:43 AX12         INFO     [Pince Gauche] Current pos :413
+04:52:43 AX12         INFO     [Pince Droite] Current pos :308
+04:52:43 AX12         INFO     [Pince Gauche] Vitesse réglée à 32 avec succès
+04:52:43 AX12         INFO     [Pince Droite] Vitesse réglée à 32 avec succès
+04:52:43 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:52:43 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:52:43 Asserv       INFO     Commande envoyé : goto 1421.06 235.9 75
+04:52:45 Asserv       INFO     Action OK (Z reçu)
+04:52:45 Asserv       INFO     Commande envoyé : Z
+04:52:45 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:52:45 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:52:45 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:52:45 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:52:45 AX12         INFO     [Pince Gauche] Vitesse actuelle: 124
+04:52:45 AX12         INFO     [Pince Droite] Vitesse actuelle: 1156
+04:52:46 AX12         INFO     [Pince Gauche] Vitesse actuelle: 72
+04:52:46 AX12         INFO     [Pince Droite] Vitesse actuelle: 1088
+04:52:46 AX12         INFO     [Pince Gauche] Vitesse actuelle: 4
+04:52:46 AX12         INFO     [Pince Droite] Vitesse actuelle: 0
+04:52:46 AX12         INFO     [Pince Gauche] Current pos :636
+04:52:46 AX12         INFO     [Pince Gauche] Position réglée à 646 avec succès
+04:52:46 AX12         INFO     [Pince Droite] Current pos :75
+04:52:46 AX12         INFO     [Pince Droite] Position réglée à 65 avec succès
+04:52:46 Asserv       INFO     Commande envoyé : goto 164 100 500
+04:52:51 Asserv       INFO     Action OK (Z reçu)
+04:52:51 Asserv       INFO     Commande envoyé : Z
+04:52:51 AX12         INFO     [Pince Gauche] Current pos :634
+04:52:51 AX12         INFO     [Pince Droite] Current pos :75
+04:52:51 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:52:51 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:52:52 AX12         INFO     [Pince Gauche] Position réglée à 609 avec succès
+04:52:52 AX12         INFO     [Pince Droite] Position réglée à 100 avec succès
+04:52:52 AX12         INFO     [Pince Gauche] Current pos :606
+04:52:52 AX12         INFO     [Pince Droite] Current pos :102
+04:52:52 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:52:52 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:52:52 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:52:52 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:52:52 Asserv       INFO     Commande envoyé : moveof -250 500
+04:52:53 Asserv       INFO     Action OK (Z reçu)
+04:52:53 Asserv       INFO     Commande envoyé : Z
+04:52:53 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:52:53 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:52:54 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:52:54 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:52:54 Asserv       INFO     Commande envoyé : goto 164 861 500
+04:52:58 Asserv       INFO     Action OK (Z reçu)
+04:52:58 Asserv       INFO     Commande envoyé : Z
+04:52:58 Asserv       INFO     Commande envoyé : goto 962 861 500
+04:53:02 Asserv       INFO     Action OK (Z reçu)
+04:53:02 Asserv       INFO     Commande envoyé : Z
+04:53:02 Asserv       INFO     Commande envoyé : rotate -1.570796
+04:53:03 Asserv       INFO     Action OK (Z reçu)
+04:53:03 Asserv       INFO     Commande envoyé : Z
+04:53:03 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:53:04 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:53:04 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:53:04 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:53:04 AX12         INFO     [Pince Gauche] Current pos :410
+04:53:04 AX12         INFO     [Pince Droite] Current pos :303
+04:53:04 AX12         INFO     [Pince Gauche] Vitesse réglée à 32 avec succès
+04:53:04 AX12         INFO     [Pince Droite] Vitesse réglée à 32 avec succès
+04:53:04 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:04 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:04 Asserv       INFO     Commande envoyé : goto 903 485 75
+04:53:06 Asserv       INFO     Action OK (Z reçu)
+04:53:06 Asserv       INFO     Commande envoyé : Z
+04:53:06 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:53:06 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:53:07 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:07 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:07 AX12         INFO     [Pince Gauche] Vitesse actuelle: 108
+04:53:07 AX12         INFO     [Pince Droite] Vitesse actuelle: 1156
+04:53:07 AX12         INFO     [Pince Gauche] Vitesse actuelle: 20
+04:53:07 AX12         INFO     [Pince Droite] Vitesse actuelle: 0
+04:53:07 AX12         INFO     [Pince Gauche] Current pos :637
+04:53:07 AX12         INFO     [Pince Gauche] Position réglée à 647 avec succès
+04:53:07 AX12         INFO     [Pince Droite] Current pos :74
+04:53:07 AX12         INFO     [Pince Droite] Position réglée à 64 avec succès
+04:53:07 Asserv       INFO     Commande envoyé : goto 260 1663 500
+04:53:13 Asserv       INFO     Action OK (Z reçu)
+04:53:13 Asserv       INFO     Commande envoyé : Z
+04:53:13 AX12         INFO     [Ascenceur] Position réglée à 10 avec succès
+04:53:13 Asserv       INFO     Commande envoyé : rotate 3.14159265
+04:53:14 Asserv       INFO     Action OK (Z reçu)
+04:53:14 Asserv       INFO     Commande envoyé : Z
+04:53:14 Asserv       INFO     Commande envoyé : recalage avant
+04:53:17 Asserv       INFO     Action OK (Z reçu)
+04:53:17 Asserv       INFO     Commande envoyé : set angle 3.14159265
+04:53:17 Asserv       INFO     Commande envoyé : moveof -75 500
+04:53:18 Asserv       INFO     Action OK (Z reçu)
+04:53:18 Asserv       INFO     Commande envoyé : Z
+04:53:18 Asserv       INFO     Commande envoyé : rotate 1.570796
+04:53:19 Asserv       INFO     Action OK (Z reçu)
+04:53:19 Asserv       INFO     Commande envoyé : Z
+04:53:19 Asserv       INFO     Commande envoyé : moveof -500 500
+04:53:21 Asserv       INFO     Action OK (Z reçu)
+04:53:21 Asserv       INFO     Commande envoyé : Z
+04:53:21 Asserv       INFO     Commande envoyé : moveof 150 500
+04:53:22 Asserv       INFO     Action OK (Z reçu)
+04:53:22 Asserv       INFO     Commande envoyé : Z
+04:53:22 Asserv       INFO     Commande envoyé : rotate 3.14159265
+04:53:23 Asserv       INFO     Action OK (Z reçu)
+04:53:23 Asserv       INFO     Commande envoyé : Z
+04:53:23 Asserv       INFO     Commande envoyé : recalage avant
+04:53:24 Asserv       INFO     Action OK (Z reçu)
+04:53:24 Asserv       INFO     Commande envoyé : set angle 3.14159265
+04:53:24 AX12         INFO     [Ascenceur] Position réglée à 310 avec succès
+04:53:24 AX12         INFO     [Ascenceur] Current pos :18
+04:53:25 AX12         INFO     [Ascenceur] Current pos :308
+04:53:25 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:53:25 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:53:25 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:53:25 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:53:25 AX12         INFO     [Ascenceur] Position réglée à 10 avec succès
+04:53:25 Asserv       INFO     Commande envoyé : moveof -250 500
+04:53:26 Asserv       INFO     Action OK (Z reçu)
+04:53:26 Asserv       INFO     Commande envoyé : Z
+04:53:26 AX12         INFO     [Ascenceur] Position réglée à 970 avec succès
+04:53:26 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:53:26 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:53:27 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:27 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:27 Asserv       INFO     Commande envoyé : goto 1067 1652 500
+04:53:31 Asserv       INFO     Action OK (Z reçu)
+04:53:31 Asserv       INFO     Commande envoyé : Z
+04:53:31 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:53:31 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:53:31 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:53:31 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:53:31 Asserv       INFO     Commande envoyé : rotate -1.570796
+04:53:33 Asserv       INFO     Action OK (Z reçu)
+04:53:33 Asserv       INFO     Commande envoyé : Z
+04:53:33 AX12         INFO     [Pince Gauche] Vitesse réglée à 64 avec succès
+04:53:33 AX12         INFO     [Pince Droite] Vitesse réglée à 64 avec succès
+04:53:33 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:33 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:33 Asserv       INFO     Commande envoyé : moveof 380 500
+04:53:34 Asserv       INFO     Action OK (Z reçu)
+04:53:34 Asserv       INFO     Commande envoyé : Z
+04:53:34 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:53:34 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:53:34 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:34 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:35 AX12         INFO     [Pince Gauche] Vitesse actuelle: 124
+04:53:35 AX12         INFO     [Pince Droite] Vitesse actuelle: 1156
+04:53:35 AX12         INFO     [Pince Gauche] Vitesse actuelle: 112
+04:53:35 AX12         INFO     [Pince Droite] Vitesse actuelle: 1064
+04:53:35 AX12         INFO     [Pince Gauche] Vitesse actuelle: 0
+04:53:35 AX12         INFO     [Pince Gauche] Current pos :714
+04:53:35 AX12         INFO     [Pince Gauche] Position réglée à 724 avec succès
+04:53:35 AX12         INFO     [Pince Droite] Current pos :2
+04:53:35 AX12         INFO     [Pince Droite] Position réglée à 5 avec succès
+04:53:35 AX12         INFO     [Ascenceur] Position réglée à 10 avec succès
+04:53:35 Asserv       INFO     Commande envoyé : goto 825 1817 500
+04:53:39 Asserv       INFO     Action OK (Z reçu)
+04:53:39 Asserv       INFO     Commande envoyé : Z
+04:53:39 Asserv       INFO     Commande envoyé : rotate 1.570796
+04:53:40 Asserv       INFO     Action OK (Z reçu)
+04:53:40 Asserv       INFO     Commande envoyé : Z
+04:53:40 Asserv       INFO     Commande envoyé : recalage avant
+04:53:42 Asserv       INFO     Action OK (Z reçu)
+04:53:42 Asserv       INFO     Commande envoyé : set angle 1.570796
+04:53:42 AX12         INFO     [Ascenceur] Position réglée à 310 avec succès
+04:53:42 AX12         INFO     [Ascenceur] Current pos :18
+04:53:42 AX12         INFO     [Ascenceur] Current pos :311
+04:53:42 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:53:42 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:53:43 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:53:43 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:53:43 AX12         INFO     [Ascenceur] Position réglée à 10 avec succès
+04:53:43 Asserv       INFO     Commande envoyé : moveof -250 500
+04:53:44 Asserv       INFO     Action OK (Z reçu)
+04:53:44 Asserv       INFO     Commande envoyé : Z
+04:53:44 AX12         INFO     [Ascenceur] Position réglée à 970 avec succès
+04:53:44 Asserv       INFO     Commande envoyé : goto 2720 887 500
+04:53:50 Asserv       INFO     Action OK (Z reçu)
+04:53:50 Asserv       INFO     Commande envoyé : Z
+04:53:50 AX12         INFO     [Pince Gauche] Vitesse réglée à 128 avec succès
+04:53:50 AX12         INFO     [Pince Droite] Vitesse réglée à 128 avec succès
+04:53:51 AX12         INFO     [Pince Gauche] Position réglée à 720 avec succès
+04:53:51 AX12         INFO     [Pince Droite] Position réglée à 0 avec succès
+04:53:51 AX12         INFO     [Pince Gauche] Vitesse actuelle: 128
+04:53:51 AX12         INFO     [Pince Droite] Vitesse actuelle: 1144
+04:53:51 AX12         INFO     [Pince Gauche] Vitesse actuelle: 136
+04:53:51 AX12         INFO     [Pince Droite] Vitesse actuelle: 1192
+04:53:51 AX12         INFO     [Pince Gauche] Vitesse actuelle: 124
+04:53:51 AX12         INFO     [Pince Droite] Vitesse actuelle: 1128
+04:53:52 AX12         INFO     [Pince Gauche] Vitesse actuelle: 80
+04:53:52 AX12         INFO     [Pince Droite] Vitesse actuelle: 1120
+04:53:52 AX12         INFO     [Pince Gauche] Vitesse actuelle: 0
+04:53:52 AX12         INFO     [Pince Gauche] Current pos :611
+04:53:52 AX12         INFO     [Pince Gauche] Position réglée à 621 avec succès
+04:53:52 AX12         INFO     [Pince Droite] Current pos :76
+04:53:52 AX12         INFO     [Pince Droite] Position réglée à 66 avec succès
+04:53:52 Asserv       INFO     Commande envoyé : rotate 3.14159265
+04:53:54 Asserv       INFO     Action OK (Z reçu)
+04:53:54 Asserv       INFO     Commande envoyé : Z
+04:53:54 Asserv       INFO     Commande envoyé : moveof -185 500
+04:53:55 Asserv       INFO     Action OK (Z reçu)
+04:53:55 Asserv       INFO     Commande envoyé : Z
+04:53:55 AX12         INFO     [Pince Gauche] Vitesse réglée à 1023 avec succès
+04:53:55 AX12         INFO     [Pince Droite] Vitesse réglée à 1023 avec succès
+04:53:55 AX12         INFO     [Pince Gauche] Position réglée à 350 avec succès
+04:53:55 AX12         INFO     [Pince Droite] Position réglée à 360 avec succès
+04:53:56 AX12         INFO     [Pince Gauche] Current pos :327
+04:53:56 AX12         INFO     [Pince Droite] Current pos :371
+04:53:56 Asserv       INFO     Commande envoyé : recalage arrière
+04:53:56 Asserv       INFO     Action OK (Z reçu)
+04:53:56 Main         INFO     Fin du match ou chrono
+04:53:57 Main         INFO     Arrêt des moteurs
+04:53:57 Asserv       INFO     Commande envoyé : stopmove
+04:53:57 Main         INFO     Arrêt du scanner Lidar
+04:53:57 Lidar        INFO     Stopping the lidar scan.
+05:17:04 Main         INFO     Main Code initialized.
+05:17:04 Main         INFO     Initialisation broche GPIO Jack
+05:17:04 Main         INFO     Initialisation du JSON...
+05:17:04 Main         INFO     Initialisation de <module 'Asserv' from '/home/pi/code_principal_2024/Asserv.py'>
+05:17:04 Asserv       INFO     Thread receive_data started
+05:17:04 Asserv       INFO     Commande envoyé : Z
+05:17:04 Asserv       INFO     Asserv initialized.
+05:17:04 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Pinces' from '/home/pi/code_principal_2024/AX12_Python/AX12_Pinces.py'>
+05:17:04 AX12         INFO     [Pince Gauche] Port ouvert avec succès ID: 3
+05:17:04 AX12         INFO     [Pince Gauche] Vitesse du port modifiée avec succès à 9600 bps
+05:17:04 AX12         ERROR    [Pince Gauche] (connect) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         INFO     [Pince Droite] Port ouvert avec succès ID: 5
+05:17:04 AX12         INFO     [Pince Droite] Vitesse du port modifiée avec succès à 9600 bps
+05:17:04 AX12         ERROR    [Pince Droite] (connect) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         ERROR    [Pince Gauche] (set_speed) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         ERROR    [Pince Droite] (set_speed) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         ERROR    [Pince Gauche] (move) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         ERROR    [Pince Droite] (move) [TxRxResult] Incorrect status packet!
+05:17:04 AX12         INFO     [Pinces] Pinces initialized.
+05:17:04 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Panneau' from '/home/pi/code_principal_2024/AX12_Python/AX12_Panneau.py'>
+05:17:04 AX12         INFO     [Bras Droit] Port ouvert avec succès ID: 4
+05:17:05 AX12         INFO     [Bras Droit] Vitesse du port modifiée avec succès à 9600 bps
+05:17:05 AX12         ERROR    [Bras Droit] (connect) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         INFO     [Bras Gauche] Port ouvert avec succès ID: 8
+05:17:05 AX12         INFO     [Bras Gauche] Vitesse du port modifiée avec succès à 9600 bps
+05:17:05 AX12         ERROR    [Bras Gauche] (connect) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Bras Droit] (set_speed) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Bras Droit] (move) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Bras Gauche] (set_speed) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Bras Gauche] (move) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         INFO     [Panneau] Panneau initialized.
+05:17:05 Main         INFO     Initialisation de <module 'AX12_Python.AX12_Ascenseur' from '/home/pi/code_principal_2024/AX12_Python/AX12_Ascenseur.py'>
+05:17:05 AX12         INFO     [Ascenceur] Port ouvert avec succès ID: 6
+05:17:05 AX12         INFO     [Ascenceur] Vitesse du port modifiée avec succès à 9600 bps
+05:17:05 AX12         ERROR    [Ascenceur] (connect) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Ascenceur] (set_cw_angle_limit) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         ERROR    [Ascenceur] (move) [TxRxResult] Incorrect status packet!
+05:17:05 AX12         INFO     [Ascenceur] Ascenseur initialized.
+05:17:05 Main         INFO     JSON initialisé.
+05:17:05 Main         INFO     Initialisation du Lidar
+05:17:05 Lidar        INFO     Lidar initialized.
+05:17:05 Main         INFO     Don de asserv à Lidar
+05:17:05 Main         INFO     Waiting for jack removal...
+05:17:11 Main         WARNING  Vous avez appuyé sur Ctrl+C !
+05:17:11 Main         INFO     Arrêt des moteurs
+05:17:11 Asserv       INFO     Commande envoyé : stopmove
+05:17:11 Main         INFO     Arrêt du scanner Lidar
+05:17:11 Lidar        INFO     Stopping the lidar scan.

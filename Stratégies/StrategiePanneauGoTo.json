@@ -1,0 +1,95 @@
+{    
+    "initialisation": [
+      "Asserv",
+      "AX12_Pinces",
+      "AX12_Panneau",
+      "AX12_Ascenseur"
+  ], 
+  "actions": [
+    {
+        "classe": "Asserv",
+        "methode": "reset",
+        "arguments": []
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "bouger_panneau_droit",
+        "arguments": []
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "ramener_AX12_droit",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [230,0,300]    
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "bouger_panneau_droit",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [260,0,100]    
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "ramener_AX12_droit",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [480,0,300]    
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "bouger_panneau_droit",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [500,0,100]    
+    },
+    {
+        "classe": "AX12_Panneau",
+        "methode": "ramener_AX12_droit",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [800,0]    
+    },
+    {
+        "classe": "AX12_Pinces",
+        "methode": "open_pince",
+        "arguments": []    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [800,280]    
+    },
+    {
+        "classe": "Asserv",
+        "methode": "goto",
+        "arguments": [800,480,75]    
+    },
+    {
+        "classe": "AX12_Pinces",
+        "methode": "close_pince",
+        "arguments": []    
+    },
+    {
+        "classe": "AX12_Ascenseur",
+        "methode": "elevate",
+        "arguments": []    
+    }
+  ]
+}

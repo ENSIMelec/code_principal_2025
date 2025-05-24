@@ -1,0 +1,26 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"elevate_pos_max",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode":"moveof",
+            "arguments":[300,300]
+        } 
+    ]
+}

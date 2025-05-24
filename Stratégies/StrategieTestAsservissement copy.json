@@ -1,0 +1,21 @@
+{
+    "initialisation": [
+        "Asserv"
+
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [
+                1400,
+                300
+            ]
+        }
+    ]
+}

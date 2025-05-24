@@ -1,0 +1,60 @@
+Exception in thread Thread-2 (run):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/code_principal_2024/GraphPlotter.py", line 103, in run
+    anim = FuncAnimation(fig, self._update, frames=np.arange(0, 2000), init_func=self._init, blit=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 1695, in __init__
+    super().__init__(fig, **kwargs)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 1417, in __init__
+    super().__init__(fig, event_source=event_source, *args, **kwargs)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 888, in __init__
+    self._setup_blit()
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 1211, in _setup_blit
+    self._post_draw(None, self._blit)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 1166, in _post_draw
+    self._fig.canvas.draw_idle()
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/backends/_backend_tk.py", line 278, in draw_idle
+    self._idle_draw_id = self._tkcanvas.after_idle(idle_draw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/tkinter/__init__.py", line 881, in after_idle
+    return self.after('idle', func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/tkinter/__init__.py", line 872, in after
+    name = self._register(callit)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/tkinter/__init__.py", line 1584, in _register
+    self.tk.createcommand(name, f)
+RuntimeError: main thread is not in main loop
+18:46:27 Asserv       INFO     Action OK (Z reçu)
+18:46:27 Asserv       INFO     Commande envoyé : moveof 400 75
+18:46:33 Asserv       INFO     Action OK (Z reçu)
+18:46:33 Asserv       INFO     Commande envoyé : Z
+18:46:33 Main         INFO     Fin du match ou chrono
+18:46:34 Main         INFO     Arrêt des moteurs
+18:46:34 Asserv       INFO     Commande envoyé : stopmove
+18:46:34 Main         INFO     Arrêt du scanner Lidar
+18:46:34 Lidar        INFO     Stopping the lidar scan.
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/tkinter/__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/backends/_backend_tk.py", line 231, in filter_destroy
+    CloseEvent("close_event", self)._process()
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 1271, in _process
+    self.canvas.callbacks.process(self.name, self)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/cbook.py", line 303, in process
+    self.exception_handler(exc)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/cbook.py", line 87, in _exception_printer
+    raise exc
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/cbook.py", line 298, in process
+    func(*args, **kwargs)
+  File "/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py", line 922, in _stop
+    self._fig.canvas.mpl_disconnect(self._resize_id)
+                                    ^^^^^^^^^^^^^^^
+AttributeError: 'FuncAnimation' object has no attribute '_resize_id'
+/home/pi/code_principal_2024/lib/python3.11/site-packages/matplotlib/animation.py:892: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you output the Animation using `plt.show()` or `anim.save()`.

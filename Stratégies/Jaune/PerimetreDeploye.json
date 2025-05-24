@@ -1,0 +1,30 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },{
+            "classe":"AX12_Planche2025",
+            "methode": "fermer_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "tourne_pinces_exte",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "close_all_pinces",
+            "arguments":[]
+        }
+    ]
+}

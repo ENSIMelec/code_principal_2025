@@ -1,0 +1,158 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reset",
+            "arguments": []
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "en_face_pinces_exte",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "open_all_pinces",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "ouvrir_planche",
+            "arguments":[]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [200,250]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"close_pinces_exte",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "fermer_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"tourne_pinces_exte",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_reculer_element_etage",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [-120,150]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"en_face_pinces_exte",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"elevate_pos_max",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [120,150]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_poser_etage",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },      
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "open_pinces_exte",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },    
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "ouvrir_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"elevate_pos_max",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[1]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [-200,150]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[4]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"lower_pos_max",
+            "arguments":[]
+        },       
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "close_all_pinces",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "fermer_planche",
+            "arguments":[]
+        }
+        
+    ]
+}
