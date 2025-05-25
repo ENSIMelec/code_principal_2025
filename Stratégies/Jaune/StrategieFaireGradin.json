@@ -30,7 +30,7 @@
         {
             "classe": "Asserv",
             "methode": "moveof",
-            "arguments": [200,250]
+            "arguments": [200,100]
         },
         {
             "classe":"AX12_Ascenseur2025",
@@ -54,7 +54,7 @@
         },{
             "classe":"Temps",
             "methode":"pause",
-            "arguments":[1]
+            "arguments":[0.5]
         },
         {
             "classe":"AX12_Ascenseur2025",
@@ -63,21 +63,17 @@
         },{
             "classe":"Temps",
             "methode":"pause",
-            "arguments":[1]
+            "arguments":[0.5]
         },
         {
             "classe": "Asserv",
             "methode": "moveof",
-            "arguments": [-120,150]
+            "arguments": [-140,150]
         },
         {
             "classe":"AX12_Pinces2025",
             "methode":"en_face_pinces_exte",
             "arguments":[]
-        },{
-            "classe":"Temps",
-            "methode":"pause",
-            "arguments":[1]
         },
         {
             "classe":"AX12_Ascenseur2025",
@@ -86,35 +82,27 @@
         },{
             "classe":"Temps",
             "methode":"pause",
-            "arguments":[1]
+            "arguments":[0.5]
         },
         {
             "classe": "Asserv",
             "methode": "moveof",
-            "arguments": [120,150]
-        },{
-            "classe":"Temps",
-            "methode":"pause",
-            "arguments":[1]
+            "arguments": [140,150]
         },
         {
             "classe":"AX12_Ascenseur2025",
             "methode":"hauteur_poser_etage",
             "arguments":[]
-        },{
-            "classe":"Temps",
-            "methode":"pause",
-            "arguments":[1]
         },      
         {
             "classe":"AX12_Pinces2025",
             "methode": "open_pinces_exte",
             "arguments":[]
-        },{
+        },  {
             "classe":"Temps",
             "methode":"pause",
-            "arguments":[1]
-        },    
+            "arguments":[0.5]
+        },
         {
             "classe":"AX12_Planche2025",
             "methode": "ouvrir_planche",
@@ -124,10 +112,6 @@
             "classe":"AX12_Ascenseur2025",
             "methode":"elevate_pos_max",
             "arguments":[]
-        },{
-            "classe":"Temps",
-            "methode":"pause",
-            "arguments":[1]
         },
         {
             "classe": "Asserv",
