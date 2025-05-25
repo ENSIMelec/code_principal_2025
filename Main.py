@@ -8,7 +8,7 @@ import logging
 import logging.config
 import signal
 import sys
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from LidarScan import LidarScanner
 from GraphPlotter import GraphPlotter
 from InterfaceGraphique2024.INTERFACE.Interface import *
@@ -163,39 +163,39 @@ class MainCode:
             if self.thread_action and self.thread_action.is_alive():
                 self.thread_action.join()
 
-    def plot_asserv_data(self):
-        """Affichage du graphe à la fin"""
-        self.logger.info("Affichage des graphes Asserv")
+    # def plot_asserv_data(self):
+    #     """Affichage du graphe à la fin"""
+    #     self.logger.info("Affichage des graphes Asserv")
 
-        asserv = self.dic_class['Asserv']
+    #     asserv = self.dic_class['Asserv']
 
-        # Nettoyage des données
-        x = [v for v in asserv.x if v is not None]
-        y = [v for v in asserv.y if v is not None]
-        angle = [v for v in asserv.angle if v is not None]
-        vitesse_g = [v for v in asserv.vitesse_G if v is not None]
-        vitesse_d = [v for v in asserv.vitesse_D if v is not None]
+    #     # Nettoyage des données
+    #     x = [v for v in asserv.x if v is not None]
+    #     y = [v for v in asserv.y if v is not None]
+    #     angle = [v for v in asserv.angle if v is not None]
+    #     vitesse_g = [v for v in asserv.vitesse_G if v is not None]
+    #     vitesse_d = [v for v in asserv.vitesse_D if v is not None]
 
-        plt.figure()
-        plt.plot(x, y, label="Trajectoire X-Y")
-        plt.xlabel("X (mm)")
-        plt.ylabel("Y (mm)")
-        plt.legend()
+    #     plt.figure()
+    #     plt.plot(x, y, label="Trajectoire X-Y")
+    #     plt.xlabel("X (mm)")
+    #     plt.ylabel("Y (mm)")
+    #     plt.legend()
 
-        plt.figure()
-        plt.plot(angle, label="Angle mesuré")
-        plt.xlabel("Échantillons")
-        plt.ylabel("Angle (°)")
-        plt.legend()
+    #     plt.figure()
+    #     plt.plot(angle, label="Angle mesuré")
+    #     plt.xlabel("Échantillons")
+    #     plt.ylabel("Angle (°)")
+    #     plt.legend()
 
-        plt.figure()
-        plt.plot(vitesse_g, label="Vitesse Gauche")
-        plt.plot(vitesse_d, label="Vitesse Droite")
-        plt.xlabel("Échantillons")
-        plt.ylabel("Vitesse")
-        plt.legend()
+    #     plt.figure()
+    #     plt.plot(vitesse_g, label="Vitesse Gauche")
+    #     plt.plot(vitesse_d, label="Vitesse Droite")
+    #     plt.xlabel("Échantillons")
+    #     plt.ylabel("Vitesse")
+    #     plt.legend()
 
-        plt.show()
+    #     plt.show()
 
     def run(self):
         if self.interface == None :

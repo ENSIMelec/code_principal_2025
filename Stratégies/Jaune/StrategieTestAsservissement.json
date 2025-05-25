@@ -13,14 +13,9 @@
             "arguments": []
         },
         {
-            "classe":"AX12_Ascenseur2025",
-            "methode":"elevate_pos_max",
-            "arguments":[]
-        },
-        {
-            "classe":"Asserv",
-            "methode":"moveof",
-            "arguments":[300,300]
-        } 
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [1000,300]
+        }
     ]
 }

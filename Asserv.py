@@ -293,6 +293,13 @@ class Asserv(object):
         self.serial.write(command.encode())
         self.logger.info(f"Commande envoyé : manette angle {vitesse}")
         return True
+    
+    def reset_ticks(self):
+        command = "asserv resetticks\n"
+        self.serial.write(command.encode())
+        self.logger.info("Commande envoyée : reset ticks")
+        return True
+
 
     def receive_data(self):
         self.logger.info("Thread receive_data started")
