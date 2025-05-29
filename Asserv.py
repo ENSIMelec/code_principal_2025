@@ -86,6 +86,13 @@ class Asserv(object):
         self.serial.write(command.encode())
         self.logger.info("Commande envoyé : Z")
         return True
+        # if self.distance_ok and self.angle_ok:
+        #     command = "asserv Z\n"
+        #     self.serial.write(command.encode())
+        #     self.logger.info("Commande envoyé : Z")
+        # else:
+        #     self.logger.warning("Z NON ENVOYÉ : mouvement pas encore terminé côté STM32")
+        # return True
     
     def debug_enable(self):
         command = "asserv debug enable\n"
@@ -115,6 +122,13 @@ class Asserv(object):
         command = "asserv reset all\n"
         self.serial.write(command.encode())
         self.logger.info("Commande envoyé : reset all")
+        time.sleep(1)
+        return True
+    
+    def reboot(self): # reset de tout l'asservissement
+        command = "asserv reboot\n"
+        self.serial.write(command.encode())
+        self.logger.info("Commande envoyé : reboot")
         time.sleep(1)
         return True
 
@@ -255,6 +269,7 @@ class Asserv(object):
     def stopmove(self): # stopper le mouvement (détection d'obstacle)
         command = "asserv stopmove\n"
         self.serial.write(command.encode())
+        self.serial.flush()
         self.logger.info("Commande envoyé : stopmove")
         return True
     
@@ -309,7 +324,14 @@ class Asserv(object):
         while True:
             try :
                 data = self.serial.readline().decode().strip()
+                if data.startswith("!") or "Erreur" in data:
+                    self.logger.warning(f"Reçu erreur STM32 : '{data}'")
+                    continue
+
                 # self.logger.debug(f"Data received: {data}")
+                if data.startswith("![TRACE]"):
+                    self.logger.info(data)
+                    continue
                 if data.startswith("A"): # Valeur du codeur Gauche
                     x = data[1:]
                     self.encGauche[self.index_encGauche] = int(x)
@@ -408,7 +430,7 @@ class Asserv(object):
                     self.logger.info("Action OK (Z reçu)")
                     self.action_ok = True
             except Exception as e:
-                self.logger.warning(f"data reception : {e}")
+                self.logger.warning(f"data reception erreur : {e}")
                 continue
 
     def get_enc_gauche(self):

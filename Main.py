@@ -25,7 +25,7 @@ class MainCode:
         self.logger = logging.getLogger('Main')
         self.thread_action = None
         self.lidar_scanner = None
-        self.graph_plotter = None
+        # self.graph_plotter = None
         self.dic_class = {}
         self.data = None
 
@@ -93,6 +93,12 @@ class MainCode:
                 self.logger.debug(f"Action {action['methode']} de la classe {action['classe']} avec les arguments {action['arguments']}")
                 while not(getattr(self.dic_class[action['classe']], action['methode'])(*action['arguments'])):
                     time.sleep(0.1)
+                asserv = self.dic_class.get("Asserv")
+                if asserv:
+                    pos_x = asserv.get_x()
+                    pos_y = asserv.get_y()
+                    theta = asserv.get_angle()
+                    print(f"Position après action : x = {pos_x}, y = {pos_y}, θ = {theta}")
         else :
             for action in self.data['actions']:
                 self.logger.debug(f"Action {action['methode']} de la classe {action['classe']} avec les arguments {action['arguments']}")
@@ -101,6 +107,12 @@ class MainCode:
 
                 while not(getattr(self.dic_class[action['classe']], action['methode'])(*action['arguments'])):
                     time.sleep(0.1)
+                asserv = self.dic_class.get("Asserv")
+                if asserv:
+                    pos_x = asserv.get_x()
+                    pos_y = asserv.get_y()
+                    theta = asserv.get_angle()
+                    print(f"Position après action : x = {pos_x}, y = {pos_y}, θ = {theta}")
 
        
     def check_jack_removed(self):
@@ -141,9 +153,9 @@ class MainCode:
             self.logger.info("Arrêt du scanner Lidar")
             self.lidar_scanner.stop_lidarScan()
 
-            self.logger.info("Arrêt du thread Action")
-            if self.thread_action and self.thread_action.is_alive():
-                self.thread_action.join()
+            # self.logger.info("Arrêt du thread Action")
+            # if self.thread_action and self.thread_action.is_alive():
+            #     self.thread_action.join()
         else :
             self.interface.after(0, self.interface.mainStop())
             self.logger.info("Arrêt des moteurs")
@@ -159,9 +171,9 @@ class MainCode:
             self.logger.info("Arrêt du scanner Lidar")
             self.lidar_scanner.stop_lidarScan()
 
-            self.logger.info("Arrêt du thread Action")
-            if self.thread_action and self.thread_action.is_alive():
-                self.thread_action.join()
+            # self.logger.info("Arrêt du thread Action")
+            # if self.thread_action and self.thread_action.is_alive():
+            #     self.thread_action.join()
 
     # def plot_asserv_data(self):
     #     """Affichage du graphe à la fin"""
@@ -229,8 +241,7 @@ class MainCode:
 
             lidar_thread = threading.Thread(target=self.lidar_scanner.scan)
             lidar_thread.daemon = True
-            # self.logger.info("Démarrage du thread de scanner Lidar")
-            # lidar_thread.start()
+            
 
             self.logger.info("Waiting for jack removal...")
             while not self.check_jack_removed():
@@ -244,6 +255,9 @@ class MainCode:
             time.sleep(0.5)
             self.logger.info("Démarrage du thread d'actions")
             self.thread_action.start()
+            #LIDAR
+            self.logger.info("Démarrage du thread de scanner Lidar")
+            lidar_thread.start()
 
             self.logger.info("Démarrage du chrono")
 
@@ -320,8 +334,9 @@ class MainCode:
             time.sleep(0.5)
             self.logger.info("Démarrage du thread d'actions")
             self.thread_action.start()
-            # self.logger.info("Démarrage du thread de scanner Lidar")
-            # lidar_thread.start()
+            #LIDAR
+            self.logger.info("Démarrage du thread de scanner Lidar")
+            lidar_thread.start()
 
             self.logger.info("Démarrage du chrono")
 
@@ -342,8 +357,8 @@ class MainCode:
 # # Utilisation exemple
 if __name__ == "__main__":
 
-    main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieFaireGradin.json")
-    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieTestAsservissement.json")
+    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieFaireGradin.json")
+    main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieTestAsservissement.json")
     #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/")
 
     # # Lancer le thread de lecture série STM32
@@ -352,54 +367,3 @@ if __name__ == "__main__":
 
     main_code.run()
     
-
-# Utilisation exemple
-# if __name__ == "__main__":
-#     import tkinter as tk
-#     import threading
-#     from comptage_pts import Application  # Assure-toi que Application est bien ici
-
-#     def lancer_main(interface):
-#         main_code = MainCode(
-#             json_path="/home/pi/code_principal_2024/Stratégies/Jaune/StrategieTestAsservissement.json",
-#             interface=interface
-#         )
-#         main_code.run()
-
-#     # Initialisation de l'interface Tkinter 
-#     root = tk.Tk()
-#     app = Application(root)
-
-#     # Lancer MainCode dans un thread pour garder l'interface fluide
-#     thread_main = threading.Thread(target=lancer_main, args=(app,))
-#     thread_main.start()
-
-#     # Démarrage de la boucle Tkinter
-#     root.mainloop()
-
-
-# if __name__ == "__main__":
-#     import tkinter as tk
-
-#     root = tk.Tk()
-#     root.withdraw()  # Cache la fenêtre principale car tu n'utilises pas d'interface graphique Tk ici
-
-#     main_code = MainCode("/home/pi/code_principal_2024/Stratégies/StrategieTestAsservissement.json")
-#     graph = GraphPlotter(graph_config=2)
-
-#     main_code.set_graph_plotter(graph)
-
-#     def start():
-#         main_code.run()
-
-#     def update_graph():
-#         graph.update()
-#         root.after(100, update_graph)
-
-#     root.after(0, start)
-#     graph.run()
-#     update_graph()
-
-#     root.mainloop()
-
-

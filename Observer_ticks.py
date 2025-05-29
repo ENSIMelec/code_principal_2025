@@ -4,7 +4,7 @@ import time
 asserv = Asserv()
 asserv.debug_enable()
 asserv.reset_ticks()
-asserv.set_position(0, 0, 0)
+asserv.set_position(190,250, 0)
 
 print("Lecture des ticks en temps réel (Ctrl+C pour quitter)\n")
 
