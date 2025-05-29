@@ -41,6 +41,11 @@
             "methode":"moveof",
             "arguments":[85,100]
         },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_banderole",
+            "arguments": [] 
+        },
         {
             "classe":"Asserv",
             "methode": "goto",
@@ -114,7 +119,12 @@
             "classe" : "Asserv",
             "methode" : "moveof",
             "arguments" : [-200]
-        },{
+        },{ 
+            "classe": "comptage_pts",
+            "methode": "pts_gradin_1",
+            "arguments": [] 
+        },
+        {
             "classe":"AX12_Pinces2025",
             "methode": "replier_pinces_exte",
             "arguments":[]

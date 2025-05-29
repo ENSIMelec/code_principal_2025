@@ -1,0 +1,35 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reboot",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause", 
+            "arguments": [1] 
+        },
+        {
+            "classe":"Asserv",
+            "methode":"set_position",
+            "arguments":[120,290,0]
+        },
+        {  "classe": "Temps",
+            "methode": "pause", 
+            "arguments": [0.1] 
+        },
+        {
+            "classe":"Asserv",
+            "methode": "goto",
+            "arguments":[1650,1000,300]
+        }
+    ]
+}

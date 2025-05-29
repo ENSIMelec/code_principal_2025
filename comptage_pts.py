@@ -61,6 +61,22 @@ class comptage_pts:
         self.mettre_a_jour_score()
         return True
 
+        
+
+    def pts_gradin_1(self):
+        points_grad1 = 4
+        self.score += points_grad1
+        # self.historique.append("Ajout de 20 points pour la promotion avec une banderole\n")
+        self.mettre_a_jour_score()
+        return True
+    
+    def pts_gradin_2(self):
+        points_grad2 = 8
+        self.score += points_grad2
+        # self.historique.append("Ajout de 20 points pour la promotion avec une banderole\n")
+        self.mettre_a_jour_score()
+        return True
+
     def pts_banderole(self):
         points_banderole = 20
         self.score += points_banderole

@@ -4,27 +4,57 @@
         "Temps",
         "AX12_Pinces2025",
         "AX12_Ascenseur2025",
-        "AX12_Planche2025"
+        "AX12_Planche2025",
+        "comptage_pts"
     ],
     "actions": [
         {
             "classe": "Asserv",
-            "methode": "reset",
+            "methode": "reboot",
             "arguments": []
         },
         {
             "classe": "Temps",
             "methode": "pause", 
-            "arguments": [1] 
+            "arguments": [2] 
         },
         {
             "classe":"Asserv",
             "methode":"set_position",
-            "arguments":[120,290,0]
+            "arguments":[165,-290,0]
         },
         {  "classe": "Temps",
             "methode": "pause", 
             "arguments": [0.1] 
+        },
+        {
+            "classe":"Asserv",
+            "methode":"moveof",
+            "arguments":[-85,100]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_aller_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode":"moveof",
+            "arguments":[85,100]
+        },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_banderole",
+            "arguments": [] 
+        },
+        {
+            "classe":"Asserv",
+            "methode": "goto",
+            "arguments":[600,-410,300]
+        },{
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[0]
         },
         {
             "classe":"AX12_Pinces2025",
@@ -40,19 +70,10 @@
             "classe":"AX12_Planche2025",
             "methode": "ouvrir_planche",
             "arguments":[]
-        },
-        {
-            "classe":"Asserv",
-            "methode": "goto",
-            "arguments":[600,410,300]
-        },{
-            "classe":"Asserv",
-            "methode": "rotate",
-            "arguments":[0]
         },{
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[810,410,150]
+            "arguments":[810,-410,150]
         },{
             "classe":"AX12_Ascenseur2025",
             "methode":"hauteur_pour_attraper",
@@ -65,7 +86,7 @@
         {
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[840,410,150]
+            "arguments":[860,-410,150]
         },{
             "classe":"AX12_Pinces2025",
             "methode": "close_all_pinces",
@@ -78,7 +99,16 @@
         },{
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[300,250,300]
+            "arguments":[500,-170,300]
+        },{
+            "classe":"Asserv",
+            "methode": "rotate",
+            "arguments":[3.14]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "goto",
+            "arguments":[300,-170,300]
         },
         {
             "classe":"AX12_Ascenseur2025",
@@ -98,7 +128,35 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [-150]
+            "arguments" : [-200]
+        },{ 
+            "classe": "comptage_pts",
+            "methode": "pts_gradin_1",
+            "arguments": [] 
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "replier_pinces_exte",
+            "arguments":[]
+        },{
+            "classe":"AX12_Pinces2025",
+            "methode": "close_all_pinces",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "fermer_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode":"goto",
+            "arguments":[1300,-1000,300]
+        },{
+            "classe":"Asserv",
+            "methode":"rotate",
+            "arguments":[0]
         }
+
     ]
 }
