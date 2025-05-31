@@ -50,15 +50,11 @@
         {
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[600,410,300]
+            "arguments":[600,380,300]
         },{
             "classe":"AX12_Ascenseur2025",
             "methode":"hauteur_pour_aller_attraper",
             "arguments":[]
-        },{
-            "classe":"Asserv",
-            "methode": "rotate",
-            "arguments":[0]
         },
         {
             "classe":"AX12_Pinces2025",
@@ -77,7 +73,7 @@
         },{
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[810,410,150]
+            "arguments":[810,380,150]
         },{
             "classe":"AX12_Ascenseur2025",
             "methode":"hauteur_pour_attraper",
@@ -90,7 +86,7 @@
         {
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[860,410,150]
+            "arguments":[860,380,100]
         },{
             "classe":"AX12_Pinces2025",
             "methode": "close_all_pinces",
@@ -103,16 +99,16 @@
         },{
             "classe":"Asserv",
             "methode": "goto",
-            "arguments":[500,170,300]
+            "arguments":[500,230,300]
         },{
             "classe":"Asserv",
             "methode": "rotate",
-            "arguments":[-3.14]
+            "arguments":[-3.0]
         },
         {
             "classe":"Asserv",
             "methode": "moveof",
-            "arguments":[200,300]
+            "arguments":[250,300]
         },
         {
             "classe":"AX12_Ascenseur2025",
@@ -132,7 +128,7 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [-250]
+            "arguments" : [-450]
         },{ 
             "classe": "comptage_pts",
             "methode": "pts_gradin_1",
@@ -149,11 +145,11 @@
         {
             "classe" : "Asserv",
             "methode" : "goto",
-            "arguments" : [550,700,300]
+            "arguments" : [700,725,300]
         },{
             "classe":"Asserv",
             "methode" : "rotate",
-            "arguments":[3.14]
+            "arguments":[3.0]
         },{
             "classe":"AX12_Pinces2025",
             "methode": "open_all_pinces",
@@ -166,7 +162,7 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [200,200]
+            "arguments" : [250,200]
         }, 
         {
             "classe":"AX12_Ascenseur2025",
@@ -176,11 +172,11 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [150,200]
+            "arguments" : [100,200]
         },{
             "classe":"Asserv",
             "methode":"set_position",
-            "arguments":[200,700,3.14]
+            "arguments":[200,725,3.14]
         },{  
             "classe": "Temps",
             "methode": "pause", 
@@ -230,7 +226,7 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [250,150]
+            "arguments" : [230,150]
         },{
             "classe":"AX12_Ascenseur2025",
             "methode":"hauteur_pour_attraper",
@@ -259,12 +255,12 @@
         {
             "classe" : "Asserv",
             "methode" : "goto",
-            "arguments" : [650,250,200]
+            "arguments" : [650,225,200]
         },
         {
             "classe" : "Asserv",
             "methode" : "rotate",
-            "arguments" : [-3.14]
+            "arguments" : [-3.0]
         },
         {
             "classe" : "Asserv",
@@ -310,7 +306,7 @@
         {
             "classe":"Asserv",
             "methode":"goto",
-            "arguments":[1300,1200,300]
+            "arguments":[1700,1200,300]
         },{
             "classe":"Asserv",
             "methode":"rotate",
@@ -320,11 +316,6 @@
             "classe":"AX12_Ascenseur2025",
             "methode":"elevate_pos_max",
             "arguments":[]
-        },
-        {
-            "classe":"Asserv",
-            "methode" : "moveof",
-            "arguments" : [350,200]
         },
         {
             "classe":"comptage_pts",
