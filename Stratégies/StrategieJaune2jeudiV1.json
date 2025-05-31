@@ -34,7 +34,7 @@
         },
         {
             "classe":"AX12_Ascenseur2025",
-            "methode":"lower_pos_max",
+            "methode":"hauteur_pour_aller_attraper",
             "arguments":[]
         },
         {
@@ -46,10 +46,6 @@
             "classe": "comptage_pts",
             "methode": "pts_banderole",
             "arguments": [] 
-        },{
-            "classe":"AX12_Ascenseur2025",
-            "methode":"hauteur_pour_aller_attraper",
-            "arguments":[]
         },
         {
             "classe":"Asserv",
@@ -132,34 +128,124 @@
         {
             "classe" : "Asserv",
             "methode" : "moveof",
-            "arguments" : [-200]
+            "arguments" : [-250]
+        },{ 
+            "classe": "comptage_pts",
+            "methode": "pts_gradin_1",
+            "arguments": [] 
+        },{
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [550,725,300]
+        },{
+            "classe" : "Asserv",
+            "methode" : "rotate",
+            "arguments" : [3.14]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [400,725,200]
+        }, 
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [250,725,200]
+        },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_aller_attraper",
+            "arguments":[]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "moveof",
+            "arguments" : [-150,200]
         },{ 
             "classe": "comptage_pts",
             "methode": "pts_gradin_1",
             "arguments": [] 
         },
         {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [400,1100,300]
+        },
+        {
             "classe":"AX12_Pinces2025",
-            "methode": "replier_pinces_exte",
+            "methode": "open_all_pinces",
             "arguments":[]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [400,1250,150]
         },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[0.5]
+        },
+        {
             "classe":"AX12_Pinces2025",
             "methode": "close_all_pinces",
             "arguments":[]
         },
         {
-            "classe":"AX12_Planche2025",
-            "methode": "fermer_planche",
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_mouvement_avec_jeu",
             "arguments":[]
         },
         {
-            "classe":"Asserv",
-            "methode":"goto",
-            "arguments":[1300,1000,300]
+            "classe" : "Asserv",
+            "methode" : "moveof",
+            "arguments" : [-100,150]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [650,250,200]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "rotate",
+            "arguments" : [3.14]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "goto",
+            "arguments" : [550,250,200]
         },{
-            "classe":"Asserv",
-            "methode":"rotate",
-            "arguments":[0]
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "open_all_pinces",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_aller_attraper",
+            "arguments":[]
+        },
+        {
+            "classe" : "Asserv",
+            "methode" : "moveof",
+            "arguments" : [-100]
+        },{ 
+            "classe": "comptage_pts",
+            "methode": "pts_gradin_1",
+            "arguments": [] 
         }
 
     ]

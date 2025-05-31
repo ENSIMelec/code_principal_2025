@@ -125,12 +125,27 @@ class Asserv(object):
         time.sleep(1)
         return True
     
-    def reboot(self): # reset de tout l'asservissement
+    # def reboot(self): # reset de tout l'asservissement
+    #     command = "asserv reboot\n"
+    #     self.serial.write(command.encode())
+    #     self.logger.info("Commande envoyé : reboot")
+    #     self.envoyer_commande("clear_stop")
+    #     time.sleep(1)
+    #     return True
+
+    def reboot(self):  # redémarre la STM32 et désactive stop_now
         command = "asserv reboot\n"
         self.serial.write(command.encode())
         self.logger.info("Commande envoyé : reboot")
-        time.sleep(1)
+
+        time.sleep(0.5)  # petite pause pour laisser la STM32 redémarrer
+
+        command_clear = "asserv clear_stop\n"
+        self.serial.write(command_clear.encode())
+        self.logger.info("Commande envoyé : clear_stop")
+
         return True
+    
 
     def angle_enable(self): # enable de l'asservissement d'angle seulement
         command = "asserv enable angle\n"

@@ -248,7 +248,11 @@ class MainCode:
                 time.sleep(0.1)
 
             time_launch = time.time()
+            self.time_launch = time_launch 
             self.logger.info(f"Démarrage du robot à {time_launch} secondes")
+
+            if "Temps" in self.dic_class:
+                self.dic_class["Temps"].set_time_launch(time_launch)
 
             self.thread_action = threading.Thread(target=self.actions)
             self.thread_action.daemon = True
@@ -256,8 +260,8 @@ class MainCode:
             self.logger.info("Démarrage du thread d'actions")
             self.thread_action.start()
             #LIDAR
-            self.logger.info("Démarrage du thread de scanner Lidar")
-            lidar_thread.start()
+            # self.logger.info("Démarrage du thread de scanner Lidar")
+            # lidar_thread.start()
 
             self.logger.info("Démarrage du chrono")
 
@@ -328,15 +332,15 @@ class MainCode:
 
             self.thread_action = threading.Thread(target=self.actions)
             self.thread_action.daemon = True
-            lidar_thread = threading.Thread(target=self.lidar_scanner.scan)
-            lidar_thread.daemon = True
+            # lidar_thread = threading.Thread(target=self.lidar_scanner.scan)
+            # lidar_thread.daemon = True
 
             time.sleep(0.5)
             self.logger.info("Démarrage du thread d'actions")
             self.thread_action.start()
             #LIDAR
-            self.logger.info("Démarrage du thread de scanner Lidar")
-            lidar_thread.start()
+            # self.logger.info("Démarrage du thread de scanner Lidar")
+            # lidar_thread.start()
 
             self.logger.info("Démarrage du chrono")
 
@@ -357,9 +361,9 @@ class MainCode:
 # # Utilisation exemple
 if __name__ == "__main__":
 
-    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieFaireGradin.json")
+    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/StrategieFaireGradin.json")
     main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Jaune/StrategieTestAsservissement.json")
-    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/")
+    #main_code = MainCode("/home/pi/code_principal_2024/Stratégies/Bleu/StrategieBleu2jeudi.json")
 
     # # Lancer le thread de lecture série STM32
     #serial_thread = threading.Thread(target=main_code.lire_serial_stm32, daemon=True)

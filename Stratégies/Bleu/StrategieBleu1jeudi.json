@@ -34,7 +34,7 @@
         },
         {
             "classe":"AX12_Ascenseur2025",
-            "methode":"hauteur_pour_aller_attraper",
+            "methode":"lower_pos_max",
             "arguments":[]
         },
         {
@@ -51,6 +51,10 @@
             "classe":"Asserv",
             "methode": "goto",
             "arguments":[600,-410,300]
+        },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_aller_attraper",
+            "arguments":[]
         },{
             "classe":"Asserv",
             "methode": "rotate",
@@ -156,6 +160,16 @@
             "classe":"Asserv",
             "methode":"rotate",
             "arguments":[0]
+        },
+        {
+            "classe":"Temps",
+            "methode" : "attendre_85s",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode": "moveof",
+            "arguments":[400,200]
         }
 
     ]
