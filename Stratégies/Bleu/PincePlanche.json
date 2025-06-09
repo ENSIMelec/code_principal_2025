@@ -1,0 +1,101 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reboot",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause", 
+            "arguments": [2] 
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "en_face_pinces_exte",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Pinces2025",
+            "methode": "open_all_pinces",
+            "arguments":[]
+        },        
+        {
+            "classe":"AX12_Planche2025",
+            "methode": "ouvrir_planche",
+            "arguments":[]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [200,100]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        },{
+            "classe":"AX12_Planche2025",
+            "methode": "fermer_planche",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"close_pinces_exte",
+            "arguments":[]
+        }     
+        ,{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[0.5]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"tourne_pinces_exte",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[0.5]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_reculer_element_etage",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[0.5]
+        },
+        {
+            "classe": "Asserv",
+            "methode": "moveof",
+            "arguments": [-140,150]
+        },
+        {
+            "classe":"AX12_Pinces2025",
+            "methode":"en_face_pinces_exte",
+            "arguments":[]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"elevate_pos_max",
+            "arguments":[]
+        },{
+            "classe":"Temps",
+            "methode":"pause",
+            "arguments":[3]
+        },{
+            "classe":"AX12_Ascenseur2025",
+            "methode":"hauteur_pour_attraper",
+            "arguments":[]
+        }
+    ]
+}

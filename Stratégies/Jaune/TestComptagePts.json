@@ -13,11 +13,6 @@
             "methode": "reset",
             "arguments": []
         },
-        { 
-            "classe": "comptage_pts",
-            "methode": "pts_gradin",
-            "arguments": [2] 
-        },
         {
             "classe": "Temps",
             "methode": "pause",

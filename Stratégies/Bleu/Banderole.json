@@ -1,0 +1,41 @@
+{
+    "initialisation": [
+        "Asserv",
+        "Temps",
+        "AX12_Pinces2025",
+        "AX12_Ascenseur2025",
+        "AX12_Planche2025"
+    ],
+    "actions": [
+        {
+            "classe": "Asserv",
+            "methode": "reboot",
+            "arguments": []
+        },
+        {
+            "classe": "Temps",
+            "methode": "pause", 
+            "arguments": [0.5] 
+        },{
+            "classe":"Asserv",
+            "methode":"moveof",
+            "arguments":[-100,100]
+        },
+        {
+            "classe":"AX12_Ascenseur2025",
+            "methode":"lower_pos_max",
+            "arguments":[]
+        },
+        {
+            "classe":"Asserv",
+            "methode":"moveof",
+            "arguments":[100,100]
+        },
+        { 
+            "classe": "comptage_pts",
+            "methode": "pts_banderole",
+            "arguments": [] 
+        }
+        
+    ]
+}
